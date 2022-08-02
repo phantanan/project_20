@@ -20,3 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+// Route::view('/', 'promotepage.home')->name('home');
+// Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
