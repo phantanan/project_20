@@ -3,53 +3,86 @@
 @section('text')
 <form class="login100-form validate-form" method="POST" action="{{ route('register') }}">
 					@csrf
-					<center>
-						<img src="{{asset('admin/images/logo.png')}}">
-					</center>
-					<span class="login100-form-title p-b-34 p-t-15">
-                        register
+					<span class="login100-form-title">
+					register
 					</span>
 
-                    <div class="wrap-input100 validate-input" data-validate = "Enter name">
-						<input class="input100" type="text" name="name" placeholder="name">
-						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+					<div class="wrap-input100 validate-input" data-validate = "Enter name">
+						<input class="input100" type="text" name="name" placeholder="Name">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+					<div class="wrap-input100 validate-input" data-validate = "Username">
 						<input class="input100" type="text" name="username" placeholder="Username">
-						<span class="focus-input100" data-placeholder="&#xf205;"></span>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</span>
 					</div>
 
-                    <div class="wrap-input100 validate-input" data-validate = "Enter phone">
-						<input class="input100" type="text" name="phone" placeholder="phone">
-						<span class="focus-input100" data-placeholder="&#xf2be;"></span>
+					<div class="wrap-input100 validate-input" data-validate = "Enter phone">
+						<input class="input100" type="text" name="phone" placeholder="Phone">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						</span>
 					</div>
 
-                    <div class="wrap-input100 validate-input" data-validate = "Enter address">
-						<input class="input100" type="text" name="address" placeholder="address">
-						<span class="focus-input100" data-placeholder="&#xf196;"></span>
+					<div class="wrap-input100 validate-input" data-validate = "Enter address">
+						<input class="input100" type="text" name="address" placeholder="Address">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-vcard" aria-hidden="true"></i>
+						</span>
 					</div>
 
-                    <div class="wrap-input100 validate-input" data-validate = "Enter  email address">
-						<input class="input100" type="email" name="email" placeholder="email">
-						<span class="focus-input100" data-placeholder="&#xf15a;"></span>
+					<div class="wrap-input100 validate-input" data-validate = "Enter email address">
+						<input class="input100" type="email" name="email" placeholder="Email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
 					</div>
-                    
-					<div class="wrap-input100 validate-input" data-validate="Enter password">
+
+					<div class="wrap-input100 validate-input" data-validate = "Enter password">
 						<input class="input100" type="password" name="password" placeholder="Password">
-						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
 					</div>
 
-                    <div class="wrap-input100 validate-input" data-validate="Enter Confirm Password">
-						<input class="input100" type="password" name="password_confirmation" placeholder="Password">
-						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+					<div class="wrap-input100 validate-input" data-validate = "Enter Confirm Password">
+						<input class="input100" type="password" name="password_confirmation" placeholder=" Confirm Password">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
 					</div>
-                    
+					
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
-                            Register
+						Register
 						</button>
 					</div>
 
+					<div class="text-center p-t-12">
+						<span class="txt1">
+							Forgot
+						</span>
+						<a class="txt2" href="{{ route('password.request') }}">
+							Username / Password?
+						</a>
+					</div>
+					<div class="text-center p-t-40">
+						<a class="txt2" href="login">
+						<i class="fa fa-long-arrow-left m-l-5" aria-hidden="true"></i>
+							login your Account
+							
+						</a>
+					</div>
 				</form>
 @endsection
