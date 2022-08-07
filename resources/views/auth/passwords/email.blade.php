@@ -8,7 +8,7 @@
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter email">
-						<input class="input100 form-control @error('email') is-invalid @enderror" type="email" name="email" placeholder="email">
+						<input class="input100 form-control @error('email') is-invalid @enderror" type="email" name="email" placeholder="Email">
                         
                             @error('email')
                                     <span class="invalid-feedback" role="alert">
