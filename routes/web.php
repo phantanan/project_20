@@ -21,5 +21,8 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+
 // Route::view('/', 'promotepage.home')->name('home');
 // Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
+
+//route::get('/admin/home', [App\http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
