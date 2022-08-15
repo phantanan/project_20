@@ -1,51 +1,57 @@
-<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-<link rel="shortcut icon" href="favicon.ico">
+<meta charset="utf-8">
+    <title>10-เว็บไซต์ร้านไก่ทอดหาดใหญ่</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
 
-<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic' rel='stylesheet' type='text/css'>
+    <!-- Favicon -->
+    <link href="{{ asset('template/promote/img/logoicon.png')}}" rel="icon">
 
-<!-- Animate.css -->
-<link rel="stylesheet" href="{{ asset('template/promote/css/animate.css')}}">
-<!-- Icomoon Icon Fonts-->
-<link rel="stylesheet" href="{{ asset('template/promote/css/icomoon.css')}}">
-<!-- Simple Line Icons -->
-<link rel="stylesheet" href="{{ asset('template/promote/css/simple-line-icons.css')}}">
-<!-- Datetimepicker -->
-<link rel="stylesheet" href="{{ asset('template/promote/css/bootstrap-datetimepicker.min.css')}}">
-<!-- Flexslider -->
-<link rel="stylesheet" href="{{ asset('template/promote/css/flexslider.css')}}">
-<!-- Bootstrap  -->
-<link rel="stylesheet" href="{{ asset('template/promote/css/bootstrap.css')}}">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
 
-<link rel="stylesheet" href="{{ asset('template/promote/css/style.css')}}">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
+    <!-- Libraries Stylesheet -->
+    <link href="{{ asset('template/promote/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('template/promote/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css')}}" rel="stylesheet" />
 
-<!-- Modernizr JS -->
-<script src="{{ asset('template/promote/js/modernizr-2.6.2.min.js')}}"></script>
-<!-- FOR IE9 below -->
-<!--[if lt IE 9]>
-<script src="js/respond.min.js"></script>
-<![endif]-->
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{{ asset('template/promote/css/style.min.css')}}" rel="stylesheet">
 
-<!-- jQuery -->
-<script src="{{ asset('template/promote/js/jquery.min.js')}}"></script>
-	<!-- jQuery Easing -->
-	<script src="{{ asset('template/promote/js/jquery.easing.1.3.js')}}"></script>
-	<!-- Bootstrap -->
-	<script src="{{ asset('template/promote/js/bootstrap.min.js')}}"></script>
-	<!-- Bootstrap DateTimePicker -->
-	<script src="{{ asset('template/promote/js/moment.js')}}"></script>
-	<script src="{{ asset('template/promote/js/bootstrap-datetimepicker.min.js')}}"></script>
-	<!-- Waypoints -->
-	<script src="{{ asset('template/promote/js/jquery.waypoints.min.js')}}"></script>
-	<!-- Stellar Parallax -->
-	<script src="{{ asset('template/promote/js/jquery.stellar.min.js')}}"></script>
+	   <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('template/promote/lib/easing/easing.min.js')}}"></script>
+    <script src="{{ asset('template/promote/lib/waypoints/waypoints.min.js')}}"></script>
+    <script src="{{ asset('template/promote/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ asset('template/promote/lib/tempusdominus/js/moment.min.js')}}"></script>
+    <script src="{{ asset('template/promote/lib/tempusdominus/js/moment-timezone.min.js')}}"></script>
+    <script src="{{ asset('template/promote/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js')}}"></script>
 
-	<!-- Flexslider -->
-	<script src="{{ asset('template/promote/js/jquery.flexslider-min.js')}}"></script>
-	<script>
-		$(function () {
-	       $('#date').datetimepicker();
-	   });
-	</script>
-	<!-- Main JS -->
-	<script src="{{ asset('template/promote/js/main.js')}}"></script>
+    <!-- Contact Javascript File -->
+    <script src="{{ asset('template/promote/mail/jqBootstrapValidation.min.js')}}"></script>
+    <script src="{{ asset('template/promote/mail/contact.js')}}"></script>
+
+    <!-- Template Javascript -->
+    <script src="{{ asset('template/promote/js/main.js')}}"></script>
+
+	
+	   <!-- JavaScript Libraries -->
+	   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ asset('template/promote/lib/easing/easing.min.js')}}"></script>
+    <script src="{{ asset('template/promote/lib/waypoints/waypoints.min.js')}}"></script>
+    <script src="{{ asset('template/promote/lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ asset('template/promote/lib/tempusdominus/js/moment.min.js')}}"></script>
+    <script src="{{ asset('template/promote/lib/tempusdominus/js/moment-timezone.min.js')}}"></script>
+    <script src="{{ asset('template/promote/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js')}}"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="{{ asset('template/promote/mail/jqBootstrapValidation.min.js')}}"></script>
+    <script src="{{ asset('template/promote/mail/contact.js')}}"></script>
+
+    <!-- Template Javascript -->
+    <script src="{{ asset('template/promote/js/main.js')}}"></script>
