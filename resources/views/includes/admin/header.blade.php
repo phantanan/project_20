@@ -1,7 +1,7 @@
  <div id="wrapper">
     <!-- Sidebar -->
     <ul class=" navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
-      <a class="sidebar-brand d-flex align-items-center justify-content-center"style="background-color: #D46565" href="index.php">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center"style="background-color: #D46565" href="{{ url('/admin/home') }}">
         <div class="sidebar-brand-icon">
           <img src="{{ asset('template/admin/img/logo/logo3.png')}}">
         </div>
@@ -9,27 +9,27 @@
       </a>
       <hr class="sidebar-divider my-0">
       <li class="nav-item active">
-        <a class="nav-link" href="index.php">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
+        <a class="nav-link" href="{{ url('/admin/home') }}">
+          <i class="fas fa-fw fa-home"></i>
           <span>Dashboard</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.php">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
+        <a class="nav-link" href="{{ url('/admin/about') }}">
+          <i class="fas fa-fw fa-user"></i>
           <span>เกี่ยวกับ</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.php">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
+        <a class="nav-link" href="{{ url('/admin/food') }}">
+          <i class="fas fa-fw fa-utensils"></i>
           <span>อาหาร</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.php">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
+        <a class="nav-link" href="{{ url('/admin/order') }}">
+          <i class="fas fa-fw fa-shopping-cart"></i>
           <span>คำสั่งซื้อ</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="content.php" >
+        <a class="nav-link" href="{{ url('/admin/content') }}" >
         <i class="fab fa-fw fa-wpforms"></i>
           <span>เนื้อหา</span></a>
       </li>
@@ -83,4 +83,5 @@
           </ul>
         </nav>
         <!-- Topbar -->
+        
         

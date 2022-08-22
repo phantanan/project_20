@@ -7,16 +7,14 @@
 <body>
 
 
-   <header>
        @include('includes.admin.header')
-   </header>
 
 
-   <div>
+
+
          
    @yield('content')
-   
-    </div>
+
 
 
 
