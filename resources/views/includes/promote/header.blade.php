@@ -21,8 +21,17 @@
                         </div>
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>	
+                    @if (Route::has('login'))
+                    @auth
+                    <a href="{{ url('/admin/home') }}" class="nav-item nav-link">admin</a>
+                    @else
                     <a href="{{ route('login') }}" class="nav-item nav-link">Log in</a>
-					<!-- <a href="{{ route('register') }}" class="nav-item nav-link">Register</a> -->
+                    @if (route::has('register'))
+					<a href="{{ route('register') }}" class="nav-item nav-link">Register</a>
+                    @endif
+                    @endauth
+                    @endif
+                    
                 </div>
             </div>
         </nav>

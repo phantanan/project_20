@@ -36,4 +36,6 @@ route::get('/admin/food', [App\http\Controllers\FoodController::class, 'index'])
 route::get('/admin/order', [App\http\Controllers\OrderController::class, 'index'])->name('adminpage.adminorder');
 
 route::get('/admin/content', [App\http\Controllers\ContentController::class, 'index'])->name('adminpage.admincontent');
+
+route::get('/admin/user', [App\http\Controllers\UserController::class, 'index'])->name('adminpage.adminuser');
 //---admin---

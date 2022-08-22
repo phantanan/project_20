@@ -33,6 +33,11 @@
         <i class="fab fa-fw fa-wpforms"></i>
           <span>เนื้อหา</span></a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url('/admin/user') }}" >
+        <i class="fab fa-fw fa-wpforms"></i>
+          <span>user</span></a>
+      </li>
       <hr class="sidebar-divider">
      
       <div class="version" id="version-ruangadmin"></div>
