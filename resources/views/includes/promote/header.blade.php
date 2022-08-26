@@ -26,7 +26,7 @@
                     <a href="{{ url('/admin/home') }}" class="nav-item nav-link">admin</a>
                     @else
                     <a href="{{ route('login') }}" class="nav-item nav-link">Log in</a>
-                    @if (route::has('register'))
+                    @if (Route::has('register'))
 					<a href="{{ route('register') }}" class="nav-item nav-link">Register</a>
                     @endif
                     @endauth
