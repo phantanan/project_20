@@ -2366,20 +2366,20 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #DA9F5B;
-  border-color: #DA9F5B;
+  background-color: #D46565;
+  border-color: #D46565;
 }
 
 .btn-primary:hover {
   color: #212529;
-  background-color: #d38d3c;
-  border-color: #d18731;
+  background-color: #c20000;
+  border-color: #c20000;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #212529;
-  background-color: #d38d3c;
-  border-color: #d18731;
+  background-color: #D46565;
+  border-color: #D46565;
   box-shadow: 0 0 0 0.2rem rgba(190, 141, 84, 0.5);
 }
 
@@ -2392,8 +2392,8 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #d18731;
-  border-color: #c8802d;
+  background-color: #D46565;
+  border-color: #ce5a5a;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -6291,7 +6291,7 @@ button.bg-dark:focus {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 20% !important;
 }
 
 .rounded-pill {
@@ -9265,7 +9265,8 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #DA9F5B !important;
+  color: #000 !important;
+  
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9568,7 +9569,7 @@ h6,
 
 .section-title {
   position: relative;
-  padding: 115px 0 35px 0;
+  padding: 60px 0 35px 0;
   text-align: center;
 }
 
@@ -9576,11 +9577,11 @@ h6,
   position: absolute;
   content: "";
   width: 2px;
-  height: 100px;
+  height: 50px;
   top: 0;
   left: 50%;
   margin-left: 1px;
-  background: #DA9F5B;
+  background: #D46565;
 }
 
 .service-icon {
@@ -9607,8 +9608,8 @@ h6,
   align-items: center;
   justify-content: center;
   border-radius: 45px;
-  color: #33211D;
-  background: #DA9F5B;
+  color: #FFFF;
+  background: #D46565;
 }
 
 .testimonial-carousel .owl-dots {
@@ -9623,7 +9624,7 @@ h6,
   width: 20px;
   height: 20px;
   border-radius: 20px;
-  background: #DA9F5B;
+  background: #D46565;
   transition: .5s;
 }
 
@@ -9633,8 +9634,11 @@ h6,
 }
 
 .testimonial-carousel .owl-item img {
-  width: 80px;
-  height: 80px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+  box-shadow: 5px 5px;
+  margin: 2%;
 }
 
 .contact-form .help-block ul {

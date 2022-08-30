@@ -19,7 +19,7 @@
     <link href="{{ asset('template/promote/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css')}}" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{ asset('template/promote/css/style.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('template/promote/css/style.css')}}" rel="stylesheet">
 
 	   <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
