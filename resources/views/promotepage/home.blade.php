@@ -6,153 +6,81 @@
         <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="template/promote/img/carousel-1.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-primary font-weight-medium m-0">We Have Been Serving</h2>
-                        <h1 class="display-1 text-white m-0">COFFEE</h1>
-                        <h2 class="text-white m-0">* SINCE 1950 *</h2>
-                    </div>
-                </div>
-                <div class="carousel-item">
                     <img class="w-100" src="template/promote/img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-primary font-weight-medium m-0">We Have Been Serving</h2>
-                        <h1 class="display-1 text-white m-0">COFFEE</h1>
-                        <h2 class="text-white m-0">* SINCE 1950 *</h2>
+                        <!-- <h1 class="display-1 text-white m-0"></h1> -->
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
+            <!-- <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
             </a>
             <a class="carousel-control-next" href="#blog-carousel" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
-            </a>
+            </a> -->
         </div>
     </div>
     <!-- Carousel End -->
 
-
-    <!-- About Start -->
+    <!-- Testimonial Start -->
     <div class="container-fluid py-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
-                <h1 class="display-4">Serving Since 1950</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">เมนูลดราคา</h4>
+                <h1 class="display-4">...</h1>
             </div>
-            <div class="row">
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Story</h1>
-                    <h5 class="mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</h5>
-                    <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
-                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
-                </div>
-                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="template/promote/img/about.png" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Vision</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
-                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-    <!-- Service Start -->
-    <div class="container-fluid pt-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Services</h4>
-                <h1 class="display-4">Fresh & Organic Beans</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="template/promote/img/service-1.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-truck service-icon"></i>Fastest Door Delivery</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="template/promote/img/testimonial-1.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Client Name</h4>
+                            <i>Profession</i>
                         </div>
                     </div>
+                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
                 </div>
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="template/promote/img/service-2.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-coffee service-icon"></i>Fresh Coffee Beans</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="template/promote/img/testimonial-2.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Client Name</h4>
+                            <i>Profession</i>
                         </div>
                     </div>
+                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
                 </div>
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="template/promote/img/service-3.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-award service-icon"></i>Best Quality Coffee</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="template/promote/img/testimonial-3.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Client Name</h4>
+                            <i>Profession</i>
                         </div>
                     </div>
+                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
                 </div>
-                <div class="col-lg-6 mb-5">
-                    <div class="row align-items-center">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="template/promote/img/service-4.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <h4><i class="fa fa-table service-icon"></i>Online Table Booking</h4>
-                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="template/promote/img/testimonial-4.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Client Name</h4>
+                            <i>Profession</i>
                         </div>
                     </div>
+                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Service End -->
-
-
-    <!-- Offer Start -->
-    <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
-        <div class="container py-5">
-            <h1 class="display-3 text-primary mt-3">50% OFF</h1>
-            <h1 class="text-white mb-3">Sunday Special Offer</h1>
-            <h4 class="text-white font-weight-normal mb-4 pb-3">Only for Sunday from 1st Jan to 30th Jan 2045</h4>
-            <form class="form-inline justify-content-center mb-4">
-                <div class="input-group">
-                    <input type="text" class="form-control p-4" placeholder="Your Email" style="height: 60px;">
-                    <div class="input-group-append">
-                        <button class="btn btn-primary font-weight-bold px-4" type="submit">Sign Up</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-    <!-- Offer End -->
-
+    <!-- Testimonial End -->
 
     <!-- Menu Start -->
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</h4>
-                <h1 class="display-4">Competitive Pricing</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">เมนูอาหาร</h4>
+                <h1 class="display-4">...</h1>
             </div>
             <div class="row">
                 <div class="col-lg-6">
@@ -227,6 +155,117 @@
     <!-- Menu End -->
 
 
+    <!-- Service Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">เช็ตไก่ทอด</h4>
+                <h1 class="display-4">...</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="template/promote/img/service-1.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-truck service-icon"></i>Fastest Door Delivery</h4>
+                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
+                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="template/promote/img/service-2.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-coffee service-icon"></i>Fresh Coffee Beans</h4>
+                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
+                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="template/promote/img/service-3.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-award service-icon"></i>Best Quality Coffee</h4>
+                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
+                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-sm-5">
+                            <img class="img-fluid mb-3 mb-sm-0" src="template/promote/img/service-4.jpg" alt="">
+                        </div>
+                        <div class="col-sm-7">
+                            <h4><i class="fa fa-table service-icon"></i>Online Table Booking</h4>
+                            <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
+                                invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+        <!-- About Start -->
+        <div class="container-fluid py-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">...</h4>
+                <h1 class="display-4">...</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 py-0 py-lg-5">
+                    <h1 class="mb-3">Our Story</h1>
+                    <h5 class="mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</h5>
+                    <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
+                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                </div>
+                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="template/promote/img/about.png" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4 py-0 py-lg-5">
+                    <h1 class="mb-3">Our Vision</h1>
+                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Lorem ipsum dolor sit amet</h5>
+                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Offer Start -->
+    <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
+        <div class="container py-5">
+            <h1 class="display-3 text-primary mt-3">50% OFF</h1>
+            <h1 class="text-white mb-3">Sunday Special Offer</h1>
+            <h4 class="text-white font-weight-normal mb-4 pb-3">Only for Sunday from 1st Jan to 30th Jan 2045</h4>
+            <form class="form-inline justify-content-center mb-4">
+                <div class="input-group">
+                    <input type="text" class="form-control p-4" placeholder="Your Email" style="height: 60px;">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary font-weight-bold px-4" type="submit">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- Offer End -->
+
     <!-- Reservation Start -->
     <div class="container-fluid my-5">
         <div class="container">
@@ -292,60 +331,6 @@
     <!-- Reservation End -->
 
 
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Testimonial</h4>
-                <h1 class="display-4">Our Clients Say</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel">
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="template/promote/img/testimonial-1.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
-                        </div>
-                    </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="template/promote/img/testimonial-2.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
-                        </div>
-                    </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="template/promote/img/testimonial-3.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
-                        </div>
-                    </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="template/promote/img/testimonial-4.jpg" alt="">
-                        <div class="ml-3">
-                            <h4>Client Name</h4>
-                            <i>Profession</i>
-                        </div>
-                    </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
-
     <!-- Footer Start -->
     <div class="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
         <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
@@ -393,7 +378,6 @@
         </div>
     </div>
     <!-- Footer End -->
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>

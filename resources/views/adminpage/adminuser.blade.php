@@ -27,7 +27,7 @@
                                 <th>username</th>
                                 <th>phone</th>
                                 <th>address</th>
-                                <th>email</th>
+                                <th>email</th> 
                                 <th>แก้ไขข้อมูล</th>
                                 <th>ลบข้อมูล</th>
                             </tr>

@@ -21,7 +21,7 @@
                     <table class="table align-items-center table-flush">
                         <thead class="thead-light">
                             <tr>
-                                <th>Order ID</th>
+                                <th>food ID</th>
                                 <th>image</th>
                                 <th>name</th>
                                 <th>detail</th>

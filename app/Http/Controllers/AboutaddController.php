@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class AboutController extends Controller
+class AboutaddController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -24,6 +24,6 @@ class AboutController extends Controller
     public function index()
     {
         //return view('home');
-        return view('adminpage.aboutadmin.adminabout');
+        return view('adminpage.aboutadmin.aboutadd');
     }
 }

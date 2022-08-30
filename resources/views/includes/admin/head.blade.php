@@ -7,7 +7,7 @@
   <link href="{{ asset('template/admin/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
   <title>10-เว็บไซต์ร้านไก่ทอดหาดใหญ่</title>
   <link href="{{ asset('template/admin/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
-  <link href="{{ asset('template/admin/css/ruang-admin.min.css')}}" rel="stylesheet">
+  <link href="{{ asset('template/admin/css/ruang-admin.css')}}" rel="stylesheet">
   
 
   

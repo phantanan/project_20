@@ -29,7 +29,10 @@ Route::view('/', 'promotepage.home')->name('home');
 route::get('/admin/home', [App\http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
 
 
-route::get('/admin/about', [App\http\Controllers\AboutController::class, 'index'])->name('adminpage.adminabout');
+//about
+route::get('/admin/about', [App\http\Controllers\AboutController::class, 'index'])->name('adminpage.aboutadmin.adminabout');
+route::get('/admin/about/add', [App\http\Controllers\AboutaddController::class, 'index'])->name('adminpage.aboutadmin.aboutadd');
+//end about
 
 route::get('/admin/food', [App\http\Controllers\FoodController::class, 'index'])->name('adminpage.adminfood');
 
@@ -38,4 +41,4 @@ route::get('/admin/order', [App\http\Controllers\OrderController::class, 'index'
 route::get('/admin/content', [App\http\Controllers\ContentController::class, 'index'])->name('adminpage.admincontent');
 
 route::get('/admin/user', [App\http\Controllers\UserController::class, 'index'])->name('adminpage.adminuser');
-//---admin---
+//---end admin---

@@ -892,6 +892,11 @@ a:focus {
   content: '\f105'
 }
 
+.add-form {
+  margin-top: -1%;
+  padding: 3rem !important
+}
+
 .login-form {
   padding: 3rem !important
 }
@@ -1900,7 +1905,7 @@ body.sidebar-toggled footer.sticky-footer {
 }
 
 .form-control:focus {
-  border: 1px solid #6777ef
+  border: 1px solid #D46565
 }
 
 .input-group-append span {
