@@ -17,28 +17,45 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+//--promote--//
+Route::view('/', 'promotepage.home')->name('home');
+Route::view('/about', 'promotepage.about')->name('about');
+//--endpromote--//
+
+
 Auth::routes();
 
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-
-Route::view('/', 'promotepage.home')->name('home');
 //Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
 
-//---admin---
+//---admin---//
 route::get('/admin/home', [App\http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
 
 
 //about
 route::get('/admin/about', [App\http\Controllers\AboutController::class, 'index'])->name('adminpage.aboutadmin.adminabout');
-route::get('/admin/about/add', [App\http\Controllers\AboutaddController::class, 'index'])->name('adminpage.aboutadmin.aboutadd');
+route::get('/admin/about/add', [App\http\Controllers\AboutController::class, 'formadd'])->name('adminpage.aboutadmin.adminaboutformadd');
 //end about
 
-route::get('/admin/food', [App\http\Controllers\FoodController::class, 'index'])->name('adminpage.adminfood');
+//food
+route::get('/admin/food', [App\http\Controllers\FoodController::class, 'index'])->name('adminpage.foodadmin.adminfood');
+route::get('/admin/food/add', [App\http\Controllers\FoodController::class, 'formadd'])->name('adminpage.foodadmin.adminfoodformadd');
+route::post('/admin/food/add', [App\http\Controllers\FoodController::class, 'add'])->name('adminpage.foodadmin.adminfoodadd');
+//end food
 
-route::get('/admin/order', [App\http\Controllers\OrderController::class, 'index'])->name('adminpage.adminorder');
+//order
+route::get('/admin/order', [App\http\Controllers\OrderController::class, 'index'])->name('adminpage.orderadmin.adminorder');
+route::get('/admin/order/add', [App\http\Controllers\OrderController::class, 'formadd'])->name('adminpage.orderadmin.adminfoodformadd');
+//end order
 
-route::get('/admin/content', [App\http\Controllers\ContentController::class, 'index'])->name('adminpage.admincontent');
+//content
+route::get('/admin/content', [App\http\Controllers\ContentController::class, 'index'])->name('adminpage.contentadmin.admincontent');
+route::get('/admin/content/add', [App\http\Controllers\ContentController::class, 'formadd'])->name('adminpage.contentadmin.adminfoodformadd');
+//end content
 
-route::get('/admin/user', [App\http\Controllers\UserController::class, 'index'])->name('adminpage.adminuser');
-//---end admin---
+//user
+route::get('/admin/user', [App\http\Controllers\UserController::class, 'index'])->name('adminpage.useradmin.adminuser');
+route::get('/admin/user/add', [App\http\Controllers\UserController::class, 'formadd'])->name('adminpage.useradmin.adminfoodformadd');
+//end user
+//---end admin---//

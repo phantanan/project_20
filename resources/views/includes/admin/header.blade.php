@@ -8,14 +8,14 @@
         <div class="sidebar-brand-text mx-2">ไก่ทอดหาดใหญ่</div>
       </a>
       <hr class="sidebar-divider my-0">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="{{ url('/admin/home') }}">
           <i class="fas fa-fw fa-home"></i>
           <span>Dashboard</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{ url('/admin/about') }}">
-          <i class="fas fa-fw fa-user"></i>
+          <i class="fab fa-fw fa-wpforms"></i>
           <span>เกี่ยวกับ</span></a>
       </li>
       <li class="nav-item">
@@ -35,7 +35,7 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{{ url('/admin/user') }}" >
-        <i class="fab fa-fw fa-wpforms"></i>
+        <i class="fas fa-fw fa-user"></i>
           <span>user</span></a>
       </li>
       <hr class="sidebar-divider">

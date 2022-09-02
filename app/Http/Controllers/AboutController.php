@@ -26,4 +26,8 @@ class AboutController extends Controller
         //return view('home');
         return view('adminpage.aboutadmin.adminabout');
     }
+    public function formadd()
+    {  
+        return view('adminpage.aboutadmin.adminaboutformadd');
+    }
 }

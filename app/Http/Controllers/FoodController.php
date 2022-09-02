@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Products;
 use Illuminate\Http\Request;
 
 class FoodController extends Controller
@@ -24,6 +25,11 @@ class FoodController extends Controller
     public function index()
     {
         //return view('home');
-        return view('adminpage.adminfood');
+        return view('adminpage.foodadmin.adminfood');
+    }
+
+    public function formadd()
+    {  
+        return view('adminpage.foodadmin.adminfoodformadd');
     }
 }

@@ -9,15 +9,15 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto p-4">
-                <a href="index.php" class="nav-item nav-link active">หน้าแรก</a>
-                <a href="about.html" class="nav-item nav-link">เกี่ยวกับ</a>
-                <a href="service.html" class="nav-item nav-link">เพิ่มเติม</a>
-                <a href="menu.html" class="nav-item nav-link">ติดต่อ</a>
+                <a href="{{ url('/') }}" class="nav-item nav-link active">หน้าแรก</a>
+                <a href="{{ url('/about') }}" class="nav-item nav-link">เกี่ยวกับ</a>
+                <a href="{{ url('/more') }}" class="nav-item nav-link">เพิ่มเติม</a>
+                <a href="{{ url('/contact') }}" class="nav-item nav-link">ติดต่อ</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">เมนูอาหาร</a>
                     <div class="dropdown-menu text-capitalize">
-                        <a href="reservation.html" class="dropdown-item">รายการอาหาร</a>
-                        <a href="testimonial.html" class="dropdown-item">เช็ตอาหาร</a>
+                        <a href="{{ url('/food') }}" class="dropdown-item">รายการอาหาร</a>
+                        <a href="{{ url('/setfood') }}" class="dropdown-item">เช็ตอาหาร</a>
                     </div>
                 </div>
                 @if (Route::has('login'))

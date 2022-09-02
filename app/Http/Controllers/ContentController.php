@@ -24,6 +24,11 @@ class ContentController extends Controller
     public function index()
     {
         //return view('home');
-        return view('adminpage.admincontent');
+        return view('adminpage.contentadmin.admincontent');
+    }
+
+    public function formadd()
+    {  
+        return view('adminpage.contentadmin.admincontentformadd');
     }
 }

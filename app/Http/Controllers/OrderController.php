@@ -24,6 +24,11 @@ class OrderController extends Controller
     public function index()
     {
         //return view('home');
-        return view('adminpage.adminorder');
+        return view('adminpage.orderadmin.adminorder');
+    }
+
+    public function formadd()
+    {  
+        return view('adminpage.orderadmin.adminorderformadd');
     }
 }

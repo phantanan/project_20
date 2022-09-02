@@ -27,6 +27,10 @@ class UserController extends Controller
         $read = User::all();
 
         //return view('home');
-        return view('adminpage.adminuser' , compact('read'));
+        return view('adminpage.useradmin.adminuser' , compact('read'));
+    }
+    public function formadd()
+    {  
+        return view('adminpage.useradmin.adminuserformadd');
     }
 }
