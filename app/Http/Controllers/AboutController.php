@@ -30,4 +30,9 @@ class AboutController extends Controller
     {  
         return view('adminpage.aboutadmin.adminaboutformadd');
     }
+
+    public function formedit()
+    {  
+        return view('adminpage.aboutadmin.adminaboutformedit');
+    }
 }

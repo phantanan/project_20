@@ -15,13 +15,13 @@
             <!-- Simple Tables -->
             <div class="card">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h5 class="m-0 font-weight-bold">อาหาร</h5><a href="{{ url('/admin/food/add') }}" class="btn btn-info"> + เพิ่มข้อมูล</a>
+                    <h5 class="m-0 font-weight-bold">เมนูอาหาร</h5><a href="{{ url('/admin/food/add') }}" class="btn btn-info"> + เพิ่มข้อมูล</a>
                 </div>
                 <div class="table-responsive">
                     <table class="table align-items-center table-flush">
                         <thead class="thead-light">
                             <tr>
-                                <th>Product ID</th>
+                                <th>Food ID</th>
                                 <th>image</th>
                                 <th>name</th>
                                 <th>detail</th>
@@ -37,7 +37,7 @@
                                 <td>...</td>
                                 <td>...</td>
                                 <td>...</td>
-                                <td><a href="#" class="btn btn-warning">แก้ไขข้อมูล</a></td>
+                                <td><a href="{{ url('/admin/food/edit') }}" class="btn btn-warning">แก้ไขข้อมูล</a></td>
                                 <td><a href="#" class="btn btn-danger">ลบข้อมูล</a></td>
                                 
                             </tr>

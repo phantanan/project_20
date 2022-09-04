@@ -31,4 +31,9 @@ class ContentController extends Controller
     {  
         return view('adminpage.contentadmin.admincontentformadd');
     }
+
+    public function formedit()
+    {  
+        return view('adminpage.contentadmin.admincontentformedit');
+    }
 }

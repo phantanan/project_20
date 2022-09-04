@@ -3,11 +3,11 @@
 
 <div class="container-fluid" id="container-wrapper">
   <div class="d-sm-flex align-items-center justify-content-between mb-4">
-    <h1 class="h3 mb-0 text-gray-800">อาหาร</h1>
+    <h1 class="h3 mb-0 text-gray-800">เกี่ยวกับ</h1>
     <ol class="breadcrumb">
       <li class="breadcrumb-item">Admin</li>
-      <li class="breadcrumb-item active" >Food</li>
-      <li class="breadcrumb-item active" aria-current="page">Add</li>
+      <li class="breadcrumb-item active" >About</li>
+      <li class="breadcrumb-item active" aria-current="page">Edit</li>
     </ol>
   </div>
   <!-- Register Content -->
@@ -20,30 +20,35 @@
               <div class="add-form">
                 <a class="form-group font-weight-bold" href="./"><-กลับไป</a>
                     <div class="text-center">
-                      <h1 class="h4 text-gray-700 mb-4 font-weight-bold">เพิ่มเมนูอาหาร</h1>
+                      <h1 class="h4 text-gray-700 mb-4 font-weight-bold">แก้ไขเกี่ยวกับ</h1>
                     </div>
                     <form class="font-weight-bold">
                       <div class="form-group">
-                        <label>Image</label>
+                        <label>First Name</label>
                         <input type="text" class="form-control" id="exampleInputFirstName" placeholder="...">
                       </div>
                       <div class="form-group">
-                        <label>Name</label>
+                        <label>Last Name</label>
                         <input type="text" class="form-control" id="exampleInputLastName" placeholder="...">
                       </div>
                       <div class="form-group">
-                        <label>Detail</label>
-                        <input type="text" class="form-control" id="exampleInputEmail" aria-describedby="..." placeholder="...">
+                        <label>Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="..." placeholder="...">
                       </div>
                       <div class="form-group">
-                        <label>Price</label>
-                        <input type="text" class="form-control" id="exampleInputPassword" placeholder="...">
+                        <label>Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword" placeholder="...">
+                      </div>
+                      <div class="form-group">
+                        <label>Repeat Password</label>
+                        <input type="password" class="form-control" id="exampleInputPasswordRepeat" placeholder="...">
                       </div>
                       <br>
                       <div class="form-group">
-                        <button type="submit" class="btn btn-info btn-block">+ เพิ่มข้อมูล</button>
+                        <button type="submit" class="btn btn-warning btn-block">แก้ไขข้อมูล</button>
                       </div>
                     </form>
+
                     <div class="text-center">
                     </div>
               </div>

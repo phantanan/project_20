@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Products;
+// use App\Models\food;
 use Illuminate\Http\Request;
 
 class FoodController extends Controller
@@ -31,5 +31,10 @@ class FoodController extends Controller
     public function formadd()
     {  
         return view('adminpage.foodadmin.adminfoodformadd');
+    }
+
+    public function formedit()
+    {  
+        return view('adminpage.foodadmin.adminfoodformedit');
     }
 }

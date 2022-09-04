@@ -42,7 +42,7 @@
                                 <td>{{ $row->phone}}</td>
                                 <td>{{ $row->address}}</td>
                                 <td>{{ $row->email}}</td>
-                                <td><a href="#" class="btn btn-warning">แก้ไขข้อมูล</a></td>
+                                <td><a href="{{ url('/admin/user/edit') }}" class="btn btn-warning">แก้ไขข้อมูล</a></td>
                                 <td><a href="#" class="btn btn-danger">ลบข้อมูล</a></td>
                                 
                             </tr>

@@ -40,7 +40,7 @@
                                 <td>...</td>
                                 <td>...</td>
                                 <td>...</td>
-                                <td><a href="#" class="btn btn-warning">แก้ไขข้อมูล</a></td>
+                                <td><a href="{{ url('/admin/order/edit') }}" class="btn btn-warning">แก้ไขข้อมูล</a></td>
                                 <td><a href="#" class="btn btn-danger">ลบข้อมูล</a></td>
                                 
                             </tr>

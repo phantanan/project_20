@@ -33,4 +33,9 @@ class UserController extends Controller
     {  
         return view('adminpage.useradmin.adminuserformadd');
     }
+
+    public function formedit()
+    {  
+        return view('adminpage.useradmin.adminuserformedit');
+    }
 }

@@ -22,7 +22,7 @@
                     <table class="table align-items-center table-flush">
                         <thead class="thead-light">
                             <tr>
-                                <th>content ID</th>
+                                <th>Content ID</th>
                                 <th>image</th>
                                 <th>name</th>
                                 <th>detail</th>
@@ -40,7 +40,7 @@
                                 <td>...</td>
                                 <td>...</td>
                                 <td>...</td>
-                                <td><a href="#" class="btn btn-warning">แก้ไขข้อมูล</a></td>
+                                <td><a href="{{ url('/admin/content/edit') }}" class="btn btn-warning">แก้ไขข้อมูล</a></td>
                                 <td><a href="#" class="btn btn-danger">ลบข้อมูล</a></td>
                                 
                             </tr>

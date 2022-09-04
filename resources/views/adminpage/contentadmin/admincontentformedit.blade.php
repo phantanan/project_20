@@ -3,11 +3,11 @@
 
 <div class="container-fluid" id="container-wrapper">
   <div class="d-sm-flex align-items-center justify-content-between mb-4">
-    <h1 class="h3 mb-0 text-gray-800">อาหาร</h1>
+    <h1 class="h3 mb-0 text-gray-800">เนื้อหา</h1>
     <ol class="breadcrumb">
       <li class="breadcrumb-item">Admin</li>
-      <li class="breadcrumb-item active" >Food</li>
-      <li class="breadcrumb-item active" aria-current="page">Add</li>
+      <li class="breadcrumb-item active" >Content</li>
+      <li class="breadcrumb-item active" aria-current="page">edit</li>
     </ol>
   </div>
   <!-- Register Content -->
@@ -20,7 +20,7 @@
               <div class="add-form">
                 <a class="form-group font-weight-bold" href="./"><-กลับไป</a>
                     <div class="text-center">
-                      <h1 class="h4 text-gray-700 mb-4 font-weight-bold">เพิ่มเมนูอาหาร</h1>
+                      <h1 class="h4 text-gray-700 mb-4 font-weight-bold">แก้ไขเนื้อหา</h1>
                     </div>
                     <form class="font-weight-bold">
                       <div class="form-group">
@@ -36,14 +36,15 @@
                         <input type="text" class="form-control" id="exampleInputEmail" aria-describedby="..." placeholder="...">
                       </div>
                       <div class="form-group">
-                        <label>Price</label>
+                        <label>Line</label>
                         <input type="text" class="form-control" id="exampleInputPassword" placeholder="...">
                       </div>
                       <br>
                       <div class="form-group">
-                        <button type="submit" class="btn btn-info btn-block">+ เพิ่มข้อมูล</button>
+                        <button type="submit" class="btn btn-warning btn-block">แก้ไขข้อมูล</button>
                       </div>
                     </form>
+
                     <div class="text-center">
                     </div>
               </div>
