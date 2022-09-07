@@ -8,7 +8,28 @@
     </div>
     <!-- Page Header End -->
 
-
+<!-- more Start -->
+<div class="container-fluid py-5">
+        <div class="container">
+            <div class="section-title">
+                <h1 class="text-primary text-uppercase" style="letter-spacing: 5px;">เพิ่มเติม</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 py-5 py-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="template/promote/img/about.png" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 py-0 py-lg-5">
+                    <h1 class="mb-3">Our Story</h1>
+                    <h5 class="mb-3">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea</h5>
+                    <p>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+<!-- more End -->
 
 
 
