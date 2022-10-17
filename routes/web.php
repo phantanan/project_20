@@ -52,19 +52,20 @@ route::get('/admin/food/edit', [App\http\Controllers\FoodController::class, 'for
 
 //order
 route::get('/admin/order', [App\http\Controllers\OrderController::class, 'index'])->name('adminpage.orderadmin.adminorder');
-route::get('/admin/order/add', [App\http\Controllers\OrderController::class, 'formadd'])->name('adminpage.orderadmin.adminfoodformadd');
-route::get('/admin/order/edit', [App\http\Controllers\OrderController::class, 'formedit'])->name('adminpage.orderadmin.adminfoodformedit');
+route::get('/admin/order/add', [App\http\Controllers\OrderController::class, 'formadd'])->name('adminpage.orderadmin.adminorderformadd');
+route::get('/admin/order/edit', [App\http\Controllers\OrderController::class, 'formedit'])->name('adminpage.orderadmin.adminorderformedit');
 //end order
 
 //content
 route::get('/admin/content', [App\http\Controllers\ContentController::class, 'index'])->name('adminpage.contentadmin.admincontent');
-route::get('/admin/content/add', [App\http\Controllers\ContentController::class, 'formadd'])->name('adminpage.contentadmin.adminfoodformadd');
-route::get('/admin/content/edit', [App\http\Controllers\ContentController::class, 'formedit'])->name('adminpage.contentadmin.adminfoodformedit');
+route::get('/admin/content/add', [App\http\Controllers\ContentController::class, 'formadd'])->name('adminpage.contentadmin.admincontentformadd');
+route::get('/admin/content/edit', [App\http\Controllers\ContentController::class, 'formedit'])->name('adminpage.contentadmin.admincontentformedit');
 //end content
 
 //user
 route::get('/admin/user', [App\http\Controllers\UserController::class, 'index'])->name('adminpage.useradmin.adminuser');
-route::get('/admin/user/add', [App\http\Controllers\UserController::class, 'formadd'])->name('adminpage.useradmin.adminfoodformadd');
-route::get('/admin/user/edit', [App\http\Controllers\UserController::class, 'formedit'])->name('adminpage.useradmin.adminfoodformedit');
+route::get('/admin/user/add', [App\http\Controllers\UserController::class, 'formadd'])->name('adminpage.useradmin.adminuserformadd');
+route::post('/admin/usar/add', [App\http\Controllers\UserController::class, 'add'])->name('adminpage.useradmin.adminuseradd');
+route::get('/admin/user/edit', [App\http\Controllers\UserController::class, 'formedit'])->name('adminpage.useradmin.adminuserformedit');
 //end user
 //---end admin---//

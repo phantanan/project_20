@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-// use App\Models\food;
+use App\Models\food;
 use Illuminate\Http\Request;
 
 class FoodController extends Controller
@@ -32,7 +32,21 @@ class FoodController extends Controller
     {  
         return view('adminpage.foodadmin.adminfoodformadd');
     }
+    public function add(Request $request)
+     {//C2->create
+     $request->validate([
+        'image'=>'null',
+        'name' => 'nullable',
+        'detail' => 'nullable',
+        // 'typeproduct'=>'null',
+        'price' => 'nullable',
 
+   ]);
+
+   Food::create($request->all());
+    return redirect()->route('adminpage.foodadmin.adminfood')
+                    ->with('success','food created successfully.');
+     }
     public function formedit()
     {  
         return view('adminpage.foodadmin.adminfoodformedit');
