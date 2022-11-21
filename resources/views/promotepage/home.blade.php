@@ -139,24 +139,22 @@
             <div class="col-lg-6 mb-5">
                 <div class="row align-items-center">
                     <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0 rounded-circle" src="template/promote/img/service-3.jpg" alt="">
+                        <img class="img-fluid mb-3 mb-sm-0 rounded-circle" src="template/promote/img/setfood-1.png" alt="">
                     </div>
                     <div class="col-sm-7">
-                        <h4><i class="fa fa-award service-icon"></i>Best Quality Coffee</h4>
-                        <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                            invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                        <h4><p class="service-icon">80฿</p>เช็ตคุ้มสุด 1</h4>
+                        <p class="m-0"> น่องไก่ 2 , ปีกไก่ 2 , สะโพกไก่ 1 , ข้าวเหนียว 2</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 mb-5">
                 <div class="row align-items-center">
                     <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0 rounded-circle" src="template/promote/img/service-4.jpg" alt="">
+                        <img class="img-fluid mb-3 mb-sm-0 rounded-circle" src="template/promote/img/setfood-2.png" alt="">
                     </div>
                     <div class="col-sm-7">
-                        <h4><i class="fa fa-table service-icon"></i>Online Table Booking</h4>
-                        <p class="m-0">Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
-                            invidunt, dolore tempor diam ipsum takima erat tempor</p>
+                        <h4><p class="service-icon">100฿</p>เช็ตคุ้มสุด 2</h4>
+                        <p class="m-0"> ไก่ไม้ 2 , อกไก่ 1 , หนังไก่ทอด 1 , ข้าวเหนียว 2</p>
                     </div>
                 </div>
             </div>

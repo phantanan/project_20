@@ -18,7 +18,8 @@
                 <div class="col-sm-4 text-center mb-3">
                     <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
                     <h4 class="font-weight-bold">Address</h4>
-                    <p>123 Street, New York, USA</p>
+                    <p>ซอย หลังตลาดศรีเขมา ถ.ประชาราษฎร์
+สาย 1 เขตบางซื่อ แขวงบางซื่อ จ.กรุงเทพ</p>
                 </div>
                 <div class="col-sm-4 text-center mb-3">
                     <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
@@ -34,7 +35,7 @@
             <div class="row">
                 <div class="col-md-6 pb-5">
                     <iframe style="width: 100%; height: 443px;"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d4640.857091647362!2d100.51872603833385!3d13.814727368348482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z4LiL4Lit4LiiIOC4q-C4peC4seC4h-C4leC4peC4suC4lOC4qOC4o-C4teC5gOC4guC4oeC4siDguJYu4Lib4Lij4Liw4LiK4Liy4Lij4Liy4Lip4LiO4Lij4LmMIOC4quC4suC4oiAxIOC5gOC4guC4leC4muC4suC4h-C4i-C4t-C5iOC4rSDguYHguILguKfguIfguJrguLLguIfguIvguLfguYjguK0g4LiILuC4geC4o-C4uOC4h-C5gOC4l-C4ng!5e0!3m2!1sth!2sth!4v1669003027678!5m2!1sth!2sth"
                         frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
                 <div class="col-md-6 pb-5">

@@ -50,6 +50,13 @@ route::post('/admin/food/add', [App\http\Controllers\FoodController::class, 'add
 route::get('/admin/food/edit', [App\http\Controllers\FoodController::class, 'formedit'])->name('adminpage.foodadmin.adminfoodformedit');
 //end food
 
+//setfood
+route::get('/admin/setfood', [App\http\Controllers\SetfoodController::class, 'index'])->name('adminpage.setfoodadmin.adminsetfood');
+route::get('/admin/setfood/add', [App\http\Controllers\SetfoodController::class, 'formadd'])->name('adminpage.setfoodadmin.adminsetfoodformadd');
+route::post('/admin/setfood/add', [App\http\Controllers\SetfoodController::class, 'add'])->name('adminpage.setfoodadmin.adminsetfoodadd');
+route::get('/admin/setfood/edit', [App\http\Controllers\SetfoodController::class, 'formedit'])->name('adminpage.setfoodadmin.adminsetfoodformedit');
+//end setfood
+
 //order
 route::get('/admin/order', [App\http\Controllers\OrderController::class, 'index'])->name('adminpage.orderadmin.adminorder');
 route::get('/admin/order/add', [App\http\Controllers\OrderController::class, 'formadd'])->name('adminpage.orderadmin.adminorderformadd');

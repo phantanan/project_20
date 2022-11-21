@@ -24,6 +24,11 @@
           <span>อาหาร</span></a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="{{ url('/admin/setfood') }}">
+          <i class="fas fa-fw fa-utensils"></i>
+          <span>เช็ตอาหาร</span></a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="{{ url('/admin/order') }}">
           <i class="fas fa-fw fa-shopping-cart"></i>
           <span>คำสั่งซื้อ</span></a>
@@ -88,5 +93,6 @@
           </ul>
         </nav>
         <!-- Topbar -->
+        
         
         

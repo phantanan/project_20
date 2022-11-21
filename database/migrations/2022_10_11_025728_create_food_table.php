@@ -19,8 +19,8 @@ return new class extends Migration
             $table->string('name')->nullable()->comment('ชื่อเนื้อหา');
             $table->string('detail')->nullable()->comment('รายละเอียด');
             $table->string('price')->nullable()->comment('ราคา');
-            $table->integer('created_dy')->nullable()->comment('user ที่เพิ่ม');
-            $table->integer('updated_dy')->nullable()->comment('user ที่แก้ไข');
+            // $table->integer('created_dy')->nullable()->comment('user ที่เพิ่ม');
+            // $table->integer('updated_dy')->nullable()->comment('user ที่แก้ไข');
             $table->timestamps();
             $table->softDeletes();
         });
