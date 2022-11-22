@@ -21,7 +21,7 @@
                     <table class="table align-items-center table-flush">
                         <thead class="thead-light">
                             <tr>
-                                <th>Setfood ID</th>
+                                <th>Setfoods ID</th>
                                 <th>image</th>
                                 <th>name</th>
                                 <th>detail</th>
@@ -31,16 +31,19 @@
                             </tr>
                         </thead>
                         <tbody>
+                            @foreach($read as $row)
+
                             <tr>
-                                <td><a href="#">000000</a></td>
-                                <td>...</td>
-                                <td>...</td>
-                                <td>...</td>
-                                <td>...</td>
+                                <td><a href="#">{{ $row->setfoods_id}}</a></td>
+                                <td>{{ $row->image}}</td>
+                                <td>{{ $row->name}}</td>
+                                <td>{{ $row->detail}}</td>
+                                <td>{{ $row->price}}</td>
                                 <td><a href="{{ url('/admin/setfood/edit') }}" class="btn btn-warning">แก้ไขข้อมูล</a></td>
                                 <td><a href="#" class="btn btn-danger">ลบข้อมูล</a></td>
-                                
+
                             </tr>
+                            @endforeach
                         </tbody>
                     </table>
                 </div>

@@ -6,7 +6,7 @@
     <h1 class="h3 mb-0 text-gray-800">อาหาร</h1>
     <ol class="breadcrumb">
       <li class="breadcrumb-item">Admin</li>
-      <li class="breadcrumb-item active" >Food</li>
+      <li class="breadcrumb-item active">Food</li>
       <li class="breadcrumb-item active" aria-current="page">Add</li>
     </ol>
   </div>
@@ -25,7 +25,10 @@
                     <form class="font-weight-bold">
                       <div class="form-group">
                         <label>Image</label>
-                        <input type="text" class="form-control" id="exampleInputFirstName" placeholder="...">
+                        <div class="custom-file">
+                          <input type="file" class="custom-file-input" id="customFile">
+                          <label class="custom-file-label" for="customFile">Choose file</label>
+                        </div>
                       </div>
                       <div class="form-group">
                         <label>Name</label>

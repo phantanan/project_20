@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Setfoods;
 use Illuminate\Http\Request;
 
 class SetfoodController extends Controller
@@ -23,8 +24,8 @@ class SetfoodController extends Controller
      */
     public function index()
     {
-        //return view('home');
-        return view('adminpage.setfoodadmin.adminsetfood');
+        $read = setfoods::all();
+        return view('adminpage.setfoodadmin.adminsetfood', compact('read'));
     }
     public function formadd()
     {  

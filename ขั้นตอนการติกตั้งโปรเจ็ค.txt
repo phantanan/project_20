@@ -1,0 +1,14 @@
+ขั้นตอนการดึงไฟล์ต้นฉบับมาในลงเครื่องของเรา
+
+ขั้นตอนที่ 1 ดาวโหลดไฟล์ คำสั่ง git clone ----URL-----
+ขั้นตอนที่ 2 ติดตั้ง package php คำสั่ง composer install
+ขั้นตอนที่ 3 ติดตั้ง package JavaScript คำสั่ง npm install
+ขั้นตอนที่ 4 Copy ไฟล์ .env.example แล้วเปลี่ยนชื่อ .env
+ขั้นตอนที่ 5 Genreate key ในไฟล์ .env ใช้คำสั่ง php artisan key:generate
+
+
+การอัพเดทงานขึ้น GitHub
+git add . && git commit -m "ข้อความที่ต้องการ Commemt" && git push
+
+
+

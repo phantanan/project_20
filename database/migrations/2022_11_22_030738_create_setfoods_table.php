@@ -13,8 +13,8 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('food', function (Blueprint $table) {
-            $table->id('food_id');
+        Schema::create('setfoods', function (Blueprint $table) {
+            $table->id('setfoods_id');
             $table->string('image')->nullable()->comment('รูปภาพ');
             $table->string('name')->nullable()->comment('ชื่อเนื้อหา');
             $table->string('detail')->nullable()->comment('รายละเอียด');
@@ -31,6 +31,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('food');
+        Schema::dropIfExists('setfoods');
     }
 };
