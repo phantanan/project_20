@@ -18,26 +18,30 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="add-form">
-                <a class="form-group font-weight-bold" href="./"><-กลับไป</a>
+                <a class="form-group font-weight-bold" href="{{route('adminpage.foodadmin.adminfood')}}"><-กลับไป</a>
                     <div class="text-center">
                       <h1 class="h4 text-gray-700 mb-4 font-weight-bold">แก้ไขเมนูอาหาร</h1>
                     </div>
-                    <form class="font-weight-bold">
+                    <form class="font-weight-bold" method="POST" action="{{url('/admin/food/update/'.$food->food_id)}}" enctype="multipart/form-data">
+                      @csrf
                       <div class="form-group">
                         <label>Image</label>
-                        <input type="text" class="form-control" id="exampleInputFirstName" placeholder="...">
+                        <input type="file" name="image" class="form-control" id="exampleInputFirstName" value="{{$food->image}}">
                       </div>
-                      <div class="form-group">
+                      <div class="mt-4">
+                        <img src="{{asset('template/admin/upload/food/'.$food->image)}}" width="100px" height="100px"  alt="">
+                      </div>
+                      <div class="form-group mt-4">
                         <label>Name</label>
-                        <input type="text" class="form-control" id="exampleInputLastName" placeholder="...">
+                        <input type="text" name="name" class="form-control" id="exampleInputLastName" value="{{$food->name}}">
                       </div>
                       <div class="form-group">
                         <label>Detail</label>
-                        <input type="text" class="form-control" id="exampleInputEmail" aria-describedby="..." placeholder="...">
+                        <input type="text" name="detail" class="form-control" id="exampleInputEmail" value="{{$food->detail}}">
                       </div>
                       <div class="form-group">
                         <label>Price</label>
-                        <input type="text" class="form-control" id="exampleInputPassword" placeholder="...">
+                        <input type="text" name="price" class="form-control" id="exampleInputPassword" value="{{$food->price}}">
                       </div>
                       <br>
                       <div class="form-group">

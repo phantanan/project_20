@@ -16,7 +16,7 @@
             <!-- Simple Tables -->
             <div class="card">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h5 class="m-0 font-weight-bold">User</h5><a href="{{ url('/admin/user/add') }}" class="btn btn-info"> + เพิ่มข้อมูล</a>
+                    
                 </div>
                 <div class="table-responsive">
                     <table class="table align-items-center table-flush">
@@ -42,8 +42,16 @@
                                 <td>{{ $row->phone}}</td>
                                 <td>{{ $row->address}}</td>
                                 <td>{{ $row->email}}</td>
-                                <td><a href="{{ url('/admin/user/edit') }}" class="btn btn-warning">แก้ไขข้อมูล</a></td>
-                                <td><a href="#" class="btn btn-danger">ลบข้อมูล</a></td>
+                                <td><a href="{{ url('/admin/user/edit/'.$row->id) }}" class="btn btn-warning">แก้ไขข้อมูล</a></td>
+                                <td>
+                                @if(Auth::user()->name == $row->name)
+
+                                <a href="" class="btn btn-secondary">ลบไม่ได้</a>
+                                @else
+                                <a href="{{url('/admin/user/delete/'.$row->id)}}" class="btn btn-danger">ลบข้อมูล</a>
+                                @endif
+                                
+                            </td>
                                 
                             </tr>
                             @endforeach

@@ -18,36 +18,33 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="add-form">
-                <a class="form-group font-weight-bold" href="./"><-กลับไป</a>
+                <a class="form-group font-weight-bold" href="{{route('adminpage.useradmin.adminuser')}}"><-กลับไป</a>
                     <div class="text-center">
                       <h1 class="h4 text-gray-700 mb-4 font-weight-bold">แก้ไข User</h1>
                     </div>
-                    <form class="font-weight-bold">
+                    <form class="font-weight-bold" action="{{url('/admin/user/update/'.$useredit->id)}}" method="POST">
+                      @csrf
                       <div class="form-group">
                         <label>Name</label>
-                        <input type="text" class="form-control" id="exampleInputFirstName" placeholder="...">
+                        <input type="text" name="name" class="form-control" id="exampleInputFirstName" value="{{$useredit->name}}">
                       </div>
                       <div class="form-group">
                         <label>Username</label>
-                        <input type="text" class="form-control" id="exampleInputLastName" placeholder="...">
+                        <input type="text" name="username" class="form-control" id="exampleInputLastName" value="{{$useredit->username}}">
                       </div>
                       <div class="form-group">
                         <label>Phone</label>
-                        <input type="text" class="form-control" id="exampleInputEmail" aria-describedby="..." placeholder="...">
+                        <input type="text" name="phone" class="form-control" id="exampleInputEmail" value="{{$useredit->phone}}">
                       </div>
                       <div class="form-group">
                         <label>Address</label>
-                        <input type="text" class="form-control" id="exampleInputPassword" placeholder="...">
+                        <input type="text" name="address" class="form-control" id="exampleInputPassword" value="{{$useredit->address}}">
                       </div>
                       <div class="form-group">
                         <label>Email</label>
-                        <input type="email" class="form-control" id="exampleInputPasswordRepeat" placeholder="...">
+                        <input type="email" name="email" class="form-control" id="exampleInputPasswordRepeat" value="{{$useredit->email}}">
                       </div>
-                      <div class="form-group">
-                        <label>Password</label>
-                        <input type="password" class="form-control" id="exampleInputPasswordRepeat" placeholder="...">
-                      </div>
-                      <br>
+              
                       <div class="form-group">
                         <button type="submit" class="btn btn-warning btn-block">แก้ไขข้อมูล</button>
                       </div>

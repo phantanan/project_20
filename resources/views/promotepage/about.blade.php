@@ -32,7 +32,7 @@
             </div>
             <div class="col-lg-6 py-5 py-lg-0" style="min-height: 500px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="template/promote/img/logoicon.png" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded" src="template/promote/img/logoicon.png" style="object-fit: cover;">
                 </div>
             </div>
         </div>

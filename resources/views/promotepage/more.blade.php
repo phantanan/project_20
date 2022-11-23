@@ -17,7 +17,7 @@
         <div class="row">
             <div class="col-lg-6 py-5 py-lg-0" style="min-height: 500px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="template/promote/img/more-1.png" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded" src="template/promote/img/more-1.png" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-6 py-0 py-lg-5">
@@ -35,7 +35,24 @@
                     ผ่านมาอีกวัน ก็มีลูกค้าถามหาไก่ทอดไม่โรยหอมเจียวเหรอลุงเลย
                     ปรับสูตรให้รสเข้มขึ้น แล้วทำหอมเจียวมาโรยด้วยทุกครั้ง</p>
             </div>
-
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-6 py-0 py-lg-5">
+                <h1 class="mb-3">วิธีทอดไก่ให้กรอบ</h1>
+                <p>1.ล้างไก่ให้สะอาด พักในตะแกรงให้สะเด็ดน้ำ<br>
+                    2.โขลก พริกไทย, ลูกผักชี, และยี่หร่า เข้าด้วยกันให้ละเอียด<br>
+                    3.เสร็จแล้วค่อยใส่กระเทียม,เกลือป่น และน้ำตาลทรายแดง โขลกทุกอย่างให้ละเอียดอีกครั้ง<br>
+                    4.จากนั้นนำทุกอย่างไปผสมกับไก่ และ ซีอิ๊วขาวหรือซอสปรุงรส คลุกส่วนผสม ทั้งหมดให้เข้ากัน หมักทิ้งในตู้เย็น อย่างน้อย 3 ชั่วโมง<br>
+                    5.เมื่อหมักไก่จนได้ที่แล้ว ให้นำไปคลุกกับแป้งสาลี และ แป้งข้าวเจ้า<br>
+                    6.นำไก่ทอดในน้ำมันพืชที่ร้อนได้ที่ด้วยไฟปานกลางจนสุกเป็นสีน้ำตาลทอง (ใช้เวลาประมาณ 10-12 นาที) ตักขึ้น พักในบนกระดาษซับมันประมาณ<br>
+                    7.เสิร์ฟคู่กับหอมเจียว และ น้ำจิ้มไก่</p>
+            </div>
+            <div class="col-lg-6 py-5 py-lg-0" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100 rounded" src="template/promote/img/more-2.jpg" style="object-fit: cover;">
+                </div>
+            </div>
         </div>
     </div>
 </div>

@@ -16,28 +16,20 @@
 
         </div>
         <div class="row">
+            @foreach($setfoods as $setfood)
             <div class="col-lg-6 mb-5">
                 <div class="row align-items-center">
                     <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0 rounded-circle" src="template/promote/img/setfood-1.png" alt="">
+                        <img class="img-fluid mb-3 mb-sm-0 rounded-circle" src="{{asset('/template/admin/upload/setfood/'.$setfood->image)}}" alt="">
                     </div>
                     <div class="col-sm-7">
-                        <h4><p class="service-icon">80฿</p>เช็ตคุ้มสุด 1</h4>
-                        <p class="m-0"> น่องไก่ 2 , ปีกไก่ 2 , สะโพกไก่ 1 , ข้าวเหนียว 2</p>
+                        <h4><p class="service-icon">฿{{$setfood->price}}</p>{{$setfood->name}}</h4>
+                        <p class="m-0">{{$setfood->detail}}</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 mb-5">
-                <div class="row align-items-center">
-                    <div class="col-sm-5">
-                        <img class="img-fluid mb-3 mb-sm-0 rounded-circle" src="template/promote/img/setfood-2.png" alt="">
-                    </div>
-                    <div class="col-sm-7">
-                        <h4><p class="service-icon">100฿</p>เช็ตคุ้มสุด 2</h4>
-                        <p class="m-0"> ไก่ไม้ 2 , อกไก่ 1 , หนังไก่ทอด 1 , ข้าวเหนียว 2</p>
-                    </div>
-                </div>
-            </div>
+            @endforeach
+            
         </div>
     </div>
 </div>

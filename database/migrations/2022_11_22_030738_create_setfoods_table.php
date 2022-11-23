@@ -20,7 +20,6 @@ return new class extends Migration
             $table->string('detail')->nullable()->comment('รายละเอียด');
             $table->string('price')->nullable()->comment('ราคา');
             $table->timestamps();
-            $table->softDeletes();
         });
     }
 

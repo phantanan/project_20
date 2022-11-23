@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\User;
+Use Alert;
+
 
 class UserController extends Controller
 {
@@ -34,8 +36,28 @@ class UserController extends Controller
         return view('adminpage.useradmin.adminuserformadd');
     }
 
-    public function formedit()
+    public function formedit($id)
     {  
-        return view('adminpage.useradmin.adminuserformedit');
+        $useredit = User::find($id);
+        return view('adminpage.useradmin.adminuserformedit',compact('useredit'));
+    }
+
+    public function update(Request $request,$id){
+        $user = User::find($id);
+        $user->name = $request->name;
+        $user->username = $request->username;
+        $user->address = $request->address;
+        $user->phone = $request->phone;
+        $user->email = $request->email;
+        $user->update();
+        toast('แก้ไขข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.useradmin.adminuser');
+    }
+
+    public function delete($id){
+        $user = User::find($id);
+        $user->delete();
+        toast('ลบข้อมูลสำเร็จ','success');
+        return redirect()->route('adminpage.useradmin.adminuser');
     }
 }

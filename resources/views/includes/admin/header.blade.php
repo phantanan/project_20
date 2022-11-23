@@ -1,4 +1,5 @@
  <div id="wrapper">
+ @include('sweetalert::alert')
     <!-- Sidebar -->
     <ul class=" navbar-nav sidebar sidebar-light accordion" id="accordionSidebar">
       <a class="sidebar-brand d-flex align-items-center justify-content-center"style="background-color: #D46565" href="{{ url('/admin/home') }}">
@@ -13,11 +14,11 @@
           <i class="fas fa-fw fa-home"></i>
           <span>Dashboard</span></a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="{{ url('/admin/about') }}">
           <i class="fab fa-fw fa-wpforms"></i>
           <span>เกี่ยวกับ</span></a>
-      </li>
+      </li> -->
       <li class="nav-item">
         <a class="nav-link" href="{{ url('/admin/food') }}">
           <i class="fas fa-fw fa-utensils"></i>
@@ -28,7 +29,7 @@
           <i class="fas fa-fw fa-utensils"></i>
           <span>เช็ตอาหาร</span></a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="{{ url('/admin/order') }}">
           <i class="fas fa-fw fa-shopping-cart"></i>
           <span>คำสั่งซื้อ</span></a>
@@ -37,7 +38,7 @@
         <a class="nav-link" href="{{ url('/admin/content') }}" >
         <i class="fab fa-fw fa-wpforms"></i>
           <span>เนื้อหา</span></a>
-      </li>
+      </li> -->
       <li class="nav-item">
         <a class="nav-link" href="{{ url('/admin/user') }}" >
         <i class="fas fa-fw fa-user"></i>
@@ -67,18 +68,7 @@
                 <span class="ml-2 d-none d-lg-inline text-white small">{{ Auth::user()->name }}</span>
               </a>
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Profile
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Settings
-                </a>
-                <a class="dropdown-item" href="#">
-                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Activity Log
-                </a>
+                
                 <a class="dropdown-item" href="{{ route('logout') }}"
                     onclick="event.preventDefault();
                                   document.getElementById('logout-form').submit();">

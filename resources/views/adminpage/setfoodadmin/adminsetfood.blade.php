@@ -4,7 +4,7 @@
 <!-- Container Fluid-->
 <div class="container-fluid" id="container-wrapper">
     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-        <h1 class="h3 mb-0 text-gray-800">เช็ดอาหาร</h1>
+        <h1 class="h3 mb-0 text-gray-800">เช็ตอาหาร</h1>
         <ol class="breadcrumb">
             <li class="breadcrumb-item">Admin</li>
             <li class="breadcrumb-item active" aria-current="page">Setfood</li>
@@ -15,7 +15,7 @@
             <!-- Simple Tables -->
             <div class="card">
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h5 class="m-0 font-weight-bold">เช็ดอาหาร</h5><a href="{{ url('/admin/setfood/add') }}" class="btn btn-info"> + เพิ่มข้อมูล</a>
+                    <h5 class="m-0 font-weight-bold">เช็ตอาหาร</h5><a href="{{ url('/admin/setfood/add') }}" class="btn btn-info"> + เพิ่มข้อมูล</a>
                 </div>
                 <div class="table-responsive">
                     <table class="table align-items-center table-flush">
@@ -35,12 +35,14 @@
 
                             <tr>
                                 <td><a href="#">{{ $row->setfoods_id}}</a></td>
-                                <td>{{ $row->image}}</td>
+                                <td>
+                                    <img src="{{asset('/template/admin/upload/setfood/'.$row->image)}}" width="100px" height="100px" alt="">
+                                </td>
                                 <td>{{ $row->name}}</td>
                                 <td>{{ $row->detail}}</td>
                                 <td>{{ $row->price}}</td>
-                                <td><a href="{{ url('/admin/setfood/edit') }}" class="btn btn-warning">แก้ไขข้อมูล</a></td>
-                                <td><a href="#" class="btn btn-danger">ลบข้อมูล</a></td>
+                                <td><a href="{{ url('/admin/setfood/edit/'.$row->setfoods_id) }}" class="btn btn-warning">แก้ไขข้อมูล</a></td>
+                                <td><a href="{{url('admin/setfood/delete/'.$row->setfoods_id)}}" class="btn btn-danger">ลบข้อมูล</a></td>
 
                             </tr>
                             @endforeach

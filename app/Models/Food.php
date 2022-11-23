@@ -15,4 +15,5 @@ class Food extends Model
         'detail',
         'price',
     ];
+    protected $primaryKey = 'food_id';
 }

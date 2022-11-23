@@ -15,4 +15,6 @@ class Setfoods extends Model
         'detail',
         'price',
     ];
+
+    protected $primaryKey = 'setfoods_id';
 }

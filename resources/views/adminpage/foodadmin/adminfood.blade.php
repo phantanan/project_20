@@ -35,12 +35,14 @@
 
                             <tr>
                                 <td><a href="#">{{ $row->food_id}}</a></td>
-                                <td>{{ $row->image}}</td>
+                                <td>
+                                    <img src="{{asset('template/admin/upload/food/'.$row->image)}}" width="100px" height="100px"  alt="">
+                                </td>
                                 <td>{{ $row->name}}</td>
                                 <td>{{ $row->detail}}</td>
                                 <td>{{ $row->price}}</td>
-                                <td><a href="{{ url('/admin/food/edit') }}" class="btn btn-warning">แก้ไขข้อมูล</a></td>
-                                <td><a href="#" class="btn btn-danger">ลบข้อมูล</a></td>
+                                <td><a href="{{ url('/admin/food/edit/'.$row->food_id) }}" class="btn btn-warning">แก้ไขข้อมูล</a></td>
+                                <td><a href="{{url('admin/food/delete/'.$row->food_id)}}" class="btn btn-danger">ลบข้อมูล</a></td>
                                 
                             </tr>
                             @endforeach
