@@ -49,7 +49,7 @@ Auth::routes();
 //Route::view('/admin/home', 'adminpage.adminhome')->name('adminhome');
 
 //---admin---//
-route::get('/admin/home', [App\http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
+route::get('/admin/home', [App\Http\Controllers\HomeController::class, 'index'])->name('adminpage.adminhome');
 
 
 //about
@@ -59,21 +59,21 @@ route::get('/admin/home', [App\http\Controllers\HomeController::class, 'index'])
 //end about
 
 //food
-route::get('/admin/food', [App\http\Controllers\FoodController::class, 'index'])->name('adminpage.foodadmin.adminfood');
-route::get('/admin/food/add', [App\http\Controllers\FoodController::class, 'formadd'])->name('adminpage.foodadmin.adminfoodformadd');
-route::post('/admin/food/add', [App\http\Controllers\FoodController::class, 'add'])->name('adminpage.foodadmin.adminfoodadd');
-route::get('/admin/food/edit/{id}', [App\http\Controllers\FoodController::class, 'formedit']);
-route::post('admin/food/update/{id}', [App\http\Controllers\FoodController::class, 'update']);
-route::get('/admin/food/delete/{id}', [App\http\Controllers\FoodController::class, 'delete']);
+route::get('/admin/food', [App\Http\Controllers\FoodController::class, 'index'])->name('adminpage.foodadmin.adminfood');
+route::get('/admin/food/add', [App\Http\Controllers\FoodController::class, 'formadd'])->name('adminpage.foodadmin.adminfoodformadd');
+route::post('/admin/food/add', [App\Http\Controllers\FoodController::class, 'add'])->name('adminpage.foodadmin.adminfoodadd');
+route::get('/admin/food/edit/{id}', [App\Http\Controllers\FoodController::class, 'formedit']);
+route::post('admin/food/update/{id}', [App\Http\Controllers\FoodController::class, 'update']);
+route::get('/admin/food/delete/{id}', [App\Http\Controllers\FoodController::class, 'delete']);
 //end food
 
 //setfood
-route::get('/admin/setfood', [App\http\Controllers\SetfoodController::class, 'index'])->name('adminpage.setfoodadmin.adminsetfood');
-route::get('/admin/setfood/add', [App\http\Controllers\SetfoodController::class, 'formadd'])->name('adminpage.setfoodadmin.adminsetfoodformadd');
-route::post('/admin/setfood/add', [App\http\Controllers\SetfoodController::class, 'add'])->name('adminpage.setfoodadmin.adminsetfoodadd');
-route::get('/admin/setfood/edit/{id}', [App\http\Controllers\SetfoodController::class, 'formedit']);
-route::post('/admin/setfood/update/{id}', [App\http\Controllers\SetfoodController::class, 'update']);
-route::get('/admin/setfood/delete/{id}', [App\http\Controllers\SetfoodController::class, 'delete']);
+route::get('/admin/setfood', [App\Http\Controllers\SetfoodController::class, 'index'])->name('adminpage.setfoodadmin.adminsetfood');
+route::get('/admin/setfood/add', [App\Http\Controllers\SetfoodController::class, 'formadd'])->name('adminpage.setfoodadmin.adminsetfoodformadd');
+route::post('/admin/setfood/add', [App\Http\Controllers\SetfoodController::class, 'add'])->name('adminpage.setfoodadmin.adminsetfoodadd');
+route::get('/admin/setfood/edit/{id}', [App\Http\Controllers\SetfoodController::class, 'formedit']);
+route::post('/admin/setfood/update/{id}', [App\Http\Controllers\SetfoodController::class, 'update']);
+route::get('/admin/setfood/delete/{id}', [App\Http\Controllers\SetfoodController::class, 'delete']);
 
 //end setfood
 
@@ -90,11 +90,11 @@ route::get('/admin/setfood/delete/{id}', [App\http\Controllers\SetfoodController
 //end content
 
 //user
-route::get('/admin/user', [App\http\Controllers\UserController::class, 'index'])->name('adminpage.useradmin.adminuser');
-route::get('/admin/user/add', [App\http\Controllers\UserController::class, 'formadd'])->name('adminpage.useradmin.adminuserformadd');
-route::post('/admin/usar/add', [App\http\Controllers\UserController::class, 'add'])->name('adminpage.useradmin.adminuseradd');
-route::get('/admin/user/edit/{id}', [App\http\Controllers\UserController::class, 'formedit']);
-route::post('/admin/user/update/{id}', [App\http\Controllers\UserController::class, 'update']);
-route::get('/admin/user/delete/{id}', [App\http\Controllers\UserController::class, 'delete']);
+route::get('/admin/user', [App\Http\Controllers\UserController::class, 'index'])->name('adminpage.useradmin.adminuser');
+route::get('/admin/user/add', [App\Http\Controllers\UserController::class, 'formadd'])->name('adminpage.useradmin.adminuserformadd');
+route::post('/admin/usar/add', [App\Http\Controllers\UserController::class, 'add'])->name('adminpage.useradmin.adminuseradd');
+route::get('/admin/user/edit/{id}', [App\Http\Controllers\UserController::class, 'formedit']);
+route::post('/admin/user/update/{id}', [App\Http\Controllers\UserController::class, 'update']);
+route::get('/admin/user/delete/{id}', [App\Http\Controllers\UserController::class, 'delete']);
 //end user
 //---end admin---//
