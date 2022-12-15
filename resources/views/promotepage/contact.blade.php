@@ -24,12 +24,12 @@
                 <div class="col-sm-4 text-center mb-3">
                     <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
                     <h4 class="font-weight-bold">Phone</h4>
-                    <p>+012 345 6789</p>
+                    <p>+66 61 428 5296</p>
                 </div>
                 <div class="col-sm-4 text-center mb-3">
                     <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
                     <h4 class="font-weight-bold">Email</h4>
-                    <p>info@example.com</p>
+                    <p>Jitrapon5296@gmail.com</p>
                 </div>
             </div>
             <div class="row">

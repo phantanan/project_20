@@ -13,8 +13,8 @@
              </div>
              <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">ติดต่อ</h4>
-                <p><i class="fa fa-phone-alt mr-2"></i>02-xxx-xxxx</p>
-                <p><i class="fa fa-envelope mr-2"></i>xxxx@gmail.com</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+66 61 428 5296</p>
+                <p><i class="fa fa-envelope mr-2"></i>Jitrapon5296@gmail.com</p>
              </div>
              <div class="col-lg-3 col-md-6 mb-5">
              <a href="{{ url('/') }}" class="nav-item nav-link">หน้าแรก</a>
